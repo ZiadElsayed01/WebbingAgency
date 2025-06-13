@@ -10,7 +10,7 @@ const companies = [google, microsoft, paypal, dribble];
 export default function Companies() {
   return (
     <>
-      <div className="bg-secondBg py-12">
+      <div className="bg-secondBg py-8">
         <Container>
           <div className="flex items-center justify-center md:justify-between gap-4 flex-wrap">
             {companies.map((company, index) => (

@@ -20,3 +20,14 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+  }
+
+  .service-card {
+    margin: 1rem 0;
+    width: 100%;
+  }
+}

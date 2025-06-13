@@ -15,9 +15,9 @@ export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <nav className="bg-white sticky top-0 z-50 shadow-sm">
+    <nav className="bg-white sticky top-0 z-50 shadow-sm md:shadow-none py-4">
       <Container>
-        <div className="py-3 flex justify-between items-center">
+        <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <NavLink to="/">
               <img src={logo} alt="logo" className="w-48 h-12" />

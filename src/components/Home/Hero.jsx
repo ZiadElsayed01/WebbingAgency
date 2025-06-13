@@ -5,7 +5,7 @@ import ipad from "../../assets/home/iPad_Mini.svg";
 export default function Hero() {
   return (
     <>
-      <div className="hero-sectin-bg max-w-full flex items-center justify-center p-4 my-4 md:my-12">
+      <div className="hero-sectin-bg max-w-full flex items-center justify-center p-4 my-4 md:my-10">
         <Container>
           <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-4 max-w-7xl w-full">
             {/* Text Content */}
