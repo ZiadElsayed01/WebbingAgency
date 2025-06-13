@@ -3,6 +3,7 @@ import Hero from "../components/Home/Hero";
 import Copmaines from "../components/Home/Companies";
 import Services from "../components/Home/Services";
 import ChooseUs from "../components/Home/ChooseUs";
+import Team from "../components/Home/Team";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Copmaines />
       <Services />
       <ChooseUs />
+      <Team />
     </>
   );
 }
