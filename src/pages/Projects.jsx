@@ -1,9 +1,6 @@
 import React from "react";
+import NotFound from "./NotFound";
 
 export default function Projects() {
-  return (
-    <div>
-      <h1>Projects</h1>
-    </div>
-  );
+  return <NotFound />;
 }

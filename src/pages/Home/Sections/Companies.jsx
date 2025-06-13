@@ -1,9 +1,9 @@
 import React from "react";
-import Container from "../Container";
-import google from "../../assets/home/google.png";
-import microsoft from "../../assets/home/microsoft.jpeg";
-import paypal from "../../assets/home/paypal.png";
-import dribble from "../../assets/home/dribble.png";
+import Container from "../../../components/Container";
+import google from "../../../assets/home/google.png";
+import microsoft from "../../../assets/home/microsoft.jpeg";
+import paypal from "../../../assets/home/paypal.png";
+import dribble from "../../../assets/home/dribble.png";
 
 const companies = [google, microsoft, paypal, dribble];
 

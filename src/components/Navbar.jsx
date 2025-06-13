@@ -15,8 +15,9 @@ export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <nav className="bg-white sticky top-0 z-50 shadow-sm md:shadow-none py-4">
+    <nav className="bg-white sticky top-0 z-50 shadow-sm py-4">
       <Container>
+        {/* Desktop Navigation */}
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <NavLink to="/">
@@ -34,6 +35,7 @@ export default function Navbar() {
             ))}
           </ul>
 
+          {/* Auth Section */}
           <div className="hidden md:flex items-center gap-3 text-lg">
             <Link to="/" className="text-primary py-1 rounded">
               Sign Up
@@ -43,6 +45,7 @@ export default function Navbar() {
             </Link>
           </div>
 
+          {/* Mobile Menu Button */}
           <button
             className="md:hidden cursor-pointer "
             onClick={() => setMobileMenu((prev) => !prev)}
@@ -64,6 +67,8 @@ export default function Navbar() {
           </button>
         </div>
       </Container>
+
+      {/* Mobile Navigation */}
       {mobileMenu && (
         <div className="md:hidden px-4 pb-4">
           <ul className="flex flex-col gap-3 mb-4 text-lg">
@@ -75,6 +80,7 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
+          {/* Auth Section */}
           <div className="flex flex-col gap-2 text-lg">
             <Link
               to="/"

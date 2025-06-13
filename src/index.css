@@ -21,13 +21,13 @@
   background-position: top;
 }
 
-@media (max-width: 768px) {
-  .services-container {
-    flex-direction: column;
-  }
+.swiper-wrapper {
+  margin: 30px 0 50px 0;
+}
 
-  .service-card {
-    margin: 1rem 0;
-    width: 100%;
-  }
+footer {
+  background: url("assets/footer.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

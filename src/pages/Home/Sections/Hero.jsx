@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../Container";
-import ipad from "../../assets/home/iPad_Mini.svg";
+import Container from "../../../components/Container";
+import ipad from "../../../assets/home/iPad_Mini.svg";
 
 export default function Hero() {
   return (
