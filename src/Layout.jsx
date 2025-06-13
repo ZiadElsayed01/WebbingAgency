@@ -7,9 +7,8 @@ export default function Layout() {
   return (
     <>
       <Navbar />
-      <main className="max-w-7xl mx-auto">
-        <Outlet />
-      </main>
+
+      <Outlet />
       <Footer />
     </>
   );

@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
-* {
-  font-family: "Oxanium", sans-serif;
+@theme {
+  --color-primary: #1f7099;
+  --color-secondary: #a2c6d9;
+  --color-mainBg: #ffffff;
+  --color-secondBg: #eff6ff;
+  --color-mainText: #000000;
+  --color-secondText: #6a6a6a;
+  --font-oxanium: "Oxanium", sans-serif;
+}
+
+.active {
+  color: var(--color-primary);
+}
+
+.hero-sectin-bg {
+  background-image: url("assets/home/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
